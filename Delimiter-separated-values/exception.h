@@ -8,8 +8,8 @@ class MyException
 	: public std::runtime_error
 {
 public:
-	NoFile(const std::string& strError) 
-		: std::runtime_error(strError) 
+	MyException(const std::string& strError)
+		: std::runtime_error(strError)
 	{
 	};
 };
