@@ -6,7 +6,7 @@
 #include <string>
 #include <vector>
 
-namespace FileIO
+namespace fio
 {
 	template<typename T = int>
 	using Vector_1D = std::vector<T>;
@@ -32,6 +32,7 @@ namespace FileIO
 				// Contents of the 1D vector then pushed to a 2D vector
 				data.push_back(t_store);
 			}
+		}
 	private:
 		std::string t_data, ss_data;
 	};
