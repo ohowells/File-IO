@@ -2,3 +2,9 @@
 *.exe
 *.o
 *.out
+
+# Visual studio files
+[Dd]ebug/
+
+*.vcxproj
+*.vcxproj.filters
