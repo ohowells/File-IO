@@ -11,3 +11,10 @@ To run type the commands:
 >make dsv                                                                       
 >./f_io.o
 
+### Get-line-x
+Finds a specified line of a file and prints it.
+
+To run type the commands:
+
+>make glx                                                                       
+>./f_io.o
